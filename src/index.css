@@ -1,13 +1,156 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main{
+  width: 100%;
+  height: 100vh;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo{
+  
+  margin-top: 10%;
+  width: 15%;
+  height: 30%;
+  align-self: center;
+  border-radius: 50%;
+}
+
+.contentHome{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-bottom: 15%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contentCap{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+
+.cardsConteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  height: 80%;
+  border-radius: 60px;
+ 
+  
+  align-self: center;
+  /*border-style: solid;
+  border-color: red;*/
+}
+
+.cardNico{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: rgb(66, 64, 64);
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.cardTitulo{
+  margin-top: 2%;
+  width: 95%;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  color: rgb(192, 80, 158);
+  
+  border-radius: 60px;
+}
+
+.itemcount{
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content:center;
+}
+
+.boton_sumar{
+  width: 20%;
+  background-color:rgb(66, 64, 64);
+  border-style: solid;
+  border-radius: 60px;
+  border-color: rgb(192, 80, 158);
+  color: rgb(192, 80, 158);
+}
+
+.boton_restar{
+  width: 20%;
+  background-color:rgb(66, 64, 64);
+  border-style: solid;
+  border-radius: 60px;
+  border-color: rgb(192, 80, 158);
+  color: rgb(192, 80, 158);
+}
+
+.contador{
+  border-style: solid;
+  border-color: rgb(192, 80, 158);
+  text-align: center;
+  border-radius: 60px;
+  width: 20%;
+  color: rgb(192, 80, 158);
+  background-color:rgb(66, 64, 64);
+}
+
+.boton_agregar_carrito{
+  margin-top: 5%;
+  width: 50%;
+  height: 7%;
+  align-self: center;
+  border-style: solid;
+  border-color: rgb(192, 80, 158);
+  border-radius: 60px;
+  color: rgb(192, 80, 158);
+  background-color:rgb(66, 64, 64);
+}
+
+.NavBar2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 7%;
+  background-color: rgb(66, 64, 64);
+  color: rgb(192, 80, 158);
 }
